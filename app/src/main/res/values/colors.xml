@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    //defaul theme is light
+    <color name="textColor">#ff18191b</color>
+    <color name="backgroundColor">#ffffffff</color>
+    <color name="buttonTextColor">#ffffffff</color>
+    <color name="buttonBackground">#ff18191b</color>
+
+    //dark theme
+    <color name="textColorDark">#ffffffff</color>
+    <color name="backgroundColorDark">#ff18191b</color>
+    <color name="buttonTextColorDark">#ff18191b</color>
+    <color name="buttonBackgroundDark">#ffffffff</color>
+</resources>

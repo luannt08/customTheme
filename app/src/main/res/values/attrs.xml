@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="custom_theme">
+        <attr name="theme_background" format="color|reference" />
+        <attr name="theme_backgroundTint" format="color|reference" />
+        <attr name="theme_textColor" format="color" />
+        <attr name="theme_src" format="reference" />
+        <attr name="them_colourState" format="reference"/>
+    </declare-styleable>
+
+</resources>

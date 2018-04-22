@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:theme_background="@color/backgroundColor">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        app:theme_background="@color/backgroundColor"
+        app:theme_src="@drawable/img_bg" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="TEXT VIEW THEME"
+        android:textSize="20sp"
+        app:theme_textColor="@color/textColor" />'
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tv_1"
+        android:layout_margin="5dp"
+        android:text="BUTTON THEME"
+        android:textSize="20sp"
+        app:theme_background="@color/buttonBackground"
+        app:theme_textColor="@color/buttonTextColor" />
+
+
+    <Button
+        android:id="@+id/btn_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@color/backgroundColor"
+        android:padding="10dp"
+        android:text="CLICK TO LIGHT"
+        android:textColor="@color/textColor" />
+
+    <Button
+        android:id="@+id/btn_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@color/backgroundColorDark"
+        android:padding="10dp"
+        android:text="CLICK TO DARK"
+        android:textColor="@color/textColorDark" />
+
+
+</RelativeLayout>
